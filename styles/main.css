@@ -77,11 +77,11 @@ header{
 }
 
 .nav-col-left{
-    width: 60%;
+    width: 76%;
 }
 
 .nav-col-rigth{
-    width: 40%;
+    width: 24%;
 
     display: flex;
 
@@ -107,8 +107,7 @@ header{
 
     margin: 2px;
 
-    width: 200px;
-    margin-right: 8px;
+    width: 150px;
 
     border: none;
 
@@ -116,7 +115,7 @@ header{
 .form-button {
     font-size: 1.1em;
 
-    padding: 4px 16px;
+    padding: 4px 4px;
     margin: 4px;
 
     border: 2px solid var(--special-color);
@@ -213,10 +212,12 @@ main p{
     .nav-col-left{
         text-align: center;
         justify-content: space-around;
+        width: 100%;
     }
 
     .nav-col-rigth{
         visibility: hidden;
+        width: 0;
     }
     .hd-col-rigth{
         visibility: visible;
